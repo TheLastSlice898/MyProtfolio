@@ -17,22 +17,51 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size:  10px;
     }
-
+    img.dotted
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        border: 10px;
+        border-style: dotted;
+    }
+    h2.h:hover
+    {
+        text-align: center;
+        border: 2px, solid white 
+    }
+    .container
+    {
+        border: 2px dashed white;
+        position: relative;
+    }
+    button.annoying
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        border: 2px solid red;
+    }
 </Style>
-    
+    <!-- yippeee-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omg I did the thing </title>
 </head>
 
 <body style= "background-color: black; " >
-    <div style="background-color: greenyellow;">
-        <p>This is text insie of a border </p>
+    <div class="container" style="background-color: rgba(128, 128, 128, 0.425); ">
+        <h2 class="h" style="text-align: center;">hover over me :) </h2>
+        <h1 style=" color: aqua; text-align: center;"> Headertime </h1>
     </div>
-    <h1 style=" color: aqua; text-align: center;"> Headertime </h1>
-
-    <p> Well I guess that means that we have the good thing</p> 
-    <a href="https://paulrestuccia.netlify.app/home.html" target="_blank"> <button>Open Page</button> </a>
-    <img src="https://pbs.twimg.com/card_img/1825888669145903106/agWajGqe?format=jpg&name=900x900" alt="The rat boi">
+    <p > Well I guess that means that we have the good thing</p> 
+    <hr>
+    
+    <a href="home.html"> <button class="annoying">Open Page</button> </a>
+    <br>
+    <img class="dotted" src="https://pbs.twimg.com/card_img/1825888669145903106/agWajGqe?format=jpg&name=900x900" alt="The rat boi">
+    </div>
 </body>
 </html>
