@@ -6,3 +6,5 @@ using someone elses prebuilt base BUT I do allow pople to use this as a base if 
 ## I just want to let peeps know
 
 I know what my work looks like but just make sure to change it a little bit you know copy my homework but just change it a little bit :]
+
+### **omg its just like discord markdown daum thats crazy**
