@@ -28,8 +28,10 @@ body{
 }
 .header{
     position: sticky;
+    border: none;
+    border-radius: 5px;
     top: 0;
     padding: 10px 16px;
-    background: #555;
+    background: cornflowerblue;
     color: #f1f1f1;
 }
