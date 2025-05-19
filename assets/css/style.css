@@ -35,3 +35,9 @@ body{
     background: cornflowerblue;
     color: #f1f1f1;
 }
+p{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    line-height: 1.6;
+}
