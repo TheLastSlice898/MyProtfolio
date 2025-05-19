@@ -13,3 +13,16 @@ body{
     color: white;
     padding: 10px;
 }
+.button-awesome{
+    padding: 10px 20px;
+    background-color: #66a6ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight:  bold;
+    cursor: pointer;
+    transition: background-color 0.3 ease-in-out;
+}
+.button-awesome:hover{
+    background-color: darkblue;
+}
