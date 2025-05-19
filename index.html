@@ -19,10 +19,15 @@
 
     <br>
     
-    <h1 style=" color: aqua; text-align: center;"> Headertime </h1>
+    <h1 style=" color: black; text-align: center;"> Headertime </h1>
 
-    <p> Well I guess that means that we have the good thing</p>
-    
-    
+    <div id="intro"></div>
+    <script>
+        fetch('assets/content/intro.html')
+        .then(res => res.text())
+        .then(data =>{
+            document.getElementById('intro').innerHTML = data
+        });
+    </script>
 </body>
 </html>
