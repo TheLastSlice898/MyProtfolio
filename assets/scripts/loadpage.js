@@ -1,4 +1,3 @@
-
     function loadPage(event, page) {
       event.preventDefault();
       fetch(page)
