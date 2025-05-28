@@ -8,10 +8,32 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     line-height: 1.6;
-    background: linear-gradient(to bottom,#2a6b74, #3a6f8c);
+    background: linear-gradient(to bottom,#4dbac9, #10384e);
     min-height: 100vh;
     color: white;
-    padding: 10px;
+   /* padding: 5%; */
+}
+.navbar{
+    overflow: hidden;
+    background-color: white;
+    top: 0;
+    position: sticky;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: solid;
+}
+.navbar a:hover{
+    background-color: black;
+    color: white;
+}
+.navbar a.active{
+    background-color: grey;
+    color: white;
 }
 .button-awesome{
     padding: 10px 20px;
@@ -26,7 +48,31 @@ body{
 .button-awesome:hover{
     background-color: rgb(39, 239, 112);
 }
-.header{
+.container {
+  width: 12rem;
+  margin: 0 auto;
+  
+  resize: horizontal;
+  overflow: auto;
+}
+.inline-list{
+    display: inline-block;
+    padding: 0;
+    line-height: 5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    list-style: circle;
+}
+.inline-list > li{
+    display: inline;
+}
+.inline-list > li::after {
+    content: " ";
+    width: 2px;
+    height: 1em;
+    background: linear-gradient(90deg, transparent calc(50% - 0.03125em), currentColor 0, currentColor calc(50% + 0.03125em), transparent 0);
+}
+.stickheader{
     position: sticky;
     border: none;
     border-radius: 5px;
@@ -34,6 +80,14 @@ body{
     padding: 10px 16px;
     background: cornflowerblue;
     color: #f1f1f1;
+}
+.header{
+position: static;
+border: none;
+top: 0;
+padding: 10px 16px;
+background-color: azure;
+
 }
 p{
     max-width: 700px;
