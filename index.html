@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/scripts/handleactiveclass.js" defer></script>
     <script src="assets/scripts/loadtext.js" defer></script>
     <script src="assets/scripts/loadpage.js" defer></script>
     <script>
         document.addEventListener('DOMContentLoaded',() => {
-            loadPage(new Event('fake'),'home.html');
+            loadPage(null,'home.html');
         });
     </script>
     <!-- yippeee-->
@@ -20,7 +21,7 @@
 <div class="stickheader">
     <img src="assets/images/slice.png" alt="My Persoanl Fursona" class="logo">
     <div class="navbar">
-        <a href="#" onclick="loadPage(event, 'home.html')" class="active">Home</a>
+        <a href="#" onclick="loadPage(event, 'home.html')">Home</a>
         <a href="#" onclick="loadPage(event,'aboutme.html')">About Me</a>
         <a href="#">CV</a>
         <a href="#">Portfolio</a>
@@ -28,7 +29,7 @@
     </div>
 </div>
 
-<main id="content">
+<main id="page-content">
     <!-- Page content Goes Here-->
 </main>
 
