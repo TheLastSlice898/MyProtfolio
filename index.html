@@ -3,35 +3,33 @@
 <head>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/scripts/loadtext.js" defer></script>
+    <script src="assets/scripts/loadpage.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded',() => {
+            loadPage(new Event('fake'),'home.html');
+        });
+    </script>
     <!-- yippeee-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omg I did the thing </title>
     <link rel="icon" type="image/x-icon" href="assets/images/slice.png">
 </head>
+
+
 <div class="stickheader">
     <img src="assets/images/slice.png" alt="My Persoanl Fursona" class="logo">
     <div class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="#">About Me</a>
+        <a href="home.html" onclick="loadPage(event, 'home.html')" class="active">Home</a>
+        <a href="aboutme.html" onclick="loadPage(event,'aboutme.html')">About Me</a>
         <a href="#">CV</a>
         <a href="#">Portfolio</a>
         <a href="#">Contact</a>
     </div>
 </div>
-<body>
-    <div class="header" id="sliceHeader">
-        <h1 style=" text-align: center;"> Paul Restuccia </h1>
-    </div>
-    
-<div style="text-align: center;">
-    <ul class="inline-list">
-        <li>3D Modeling</li>
-        <li>Animation</li>
-        <li>Custom Textures</li>
-        <li>Rigging</li>
-    </ul>
-</div> 
-    <div id="intro" style="color: black;"></div>
-</body>
+
+<main id="content">
+    <!-- Page content Goes Here-->
+</main>
+
 </html>

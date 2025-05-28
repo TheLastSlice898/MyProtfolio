@@ -5,7 +5,3 @@
             document.getElementById(text).innerHTML = data
         });
        }
-       
-document.addEventListener('DOMContentLoaded',() => {
-    fetchtext('intro');
-});
