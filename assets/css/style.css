@@ -24,7 +24,7 @@ li{
     
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     line-height: 1.6;
     background: linear-gradient(to bottom,#f1f1f1, #adadad);
@@ -40,6 +40,7 @@ body{
     filter: none;
 }
 .navbar{
+    font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
     justify-self: center;
     top: 0;
