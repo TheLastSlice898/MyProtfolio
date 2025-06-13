@@ -52,6 +52,7 @@ table, th, td {
   color: black; 
 }
 
+
 .homeheroimages{
 display: grid;
 grid-template-columns: 2fr 2fr;
@@ -60,7 +61,12 @@ column-gap: 10px;
 row-gap: 10px;
 padding: 10px;
 }
-
+@media (max-width: 768px) {
+    .homeheroimages{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
 .gamesimagegrid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
