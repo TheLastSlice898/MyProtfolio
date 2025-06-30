@@ -1,51 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/scripts/handleactiveclass.js" defer></script>
-    <script src="assets/scripts/loadtext.js" defer></script>
-    <script src="assets/scripts/loadpage.js" defer></script>
-    <script>
-        document.addEventListener('DOMContentLoaded',() => {
-            loadPage(null,'home.html');
-        });
-    </script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/scripts/handleactiveclass.js" defer></script>
+    <script src="/assets/scripts/loadtext.js" defer></script>
+    <script src="/assets/scripts/loadpage.js" defer></script>
     <!-- yippeee -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omg I did the thing </title>
-    <link rel="icon" type="image/x-icon" href="assets/images/slice.png">
+    <title>Paul Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/slice.png">
 </head>
-
-
+<body>
 <div class="stickheader">
-    <img src="assets/images/slice.png" alt="My Persoanl Fursona" class="logo">
+    <img src="/assets/images/slice.png" alt="My Persoanl Fursona" class="logo">
     <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="aboutme.html">About Me</a>
-        <a href="cv.html">CV</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="#">Contact</a>
+        <a href="/index.html">Home</a>
+        <a href="/aboutme.html">About Me</a>
+        <a href="/cv.html">CV</a>
+        <a href="/portfolio.html">Portfolio</a>
+        <a href="/contact.html">Contact</a>
     </div>
 </div>
+
 <div class="stickheader" style="background-color: navy;margin: -7px 0 0 0;z-index: 0;">
     <div class="collapsableheader">
         <div class="navbar" style="z-index: 10000; ">
-            <a href=""> Games</a>
-            <a href=""> 3D Art</a>
+            <a href="/portfolio/games.html"> Games</a>
+            <a href="/portfolio/3D art.html"> 3D Art</a>
+            <a href="/portfolio/programming.html"> Programming</a>
+            <a href="/portfolio/otherprojects.html"> Other Projects</a>
         </div>
     </div>
 </div>
-    
 
-<body>
-    
 <div>
-<p> Here is a showcase of the games that I have madde with both myself and University Projects </p>
+<p style="text-align: center;"> Here is a showcase of the games that I have made with both myself and University Projects </p>
 </div>
 
 <div>
-  <div class="collapsible" onclick="toggleContent()">
+  <div style="text-align: center;" class="collapsible" onclick="toggleContent() ">
     Secrets
     <span id="symbol" class="symbol">+</span>
   </div>
@@ -70,7 +64,7 @@
 </div>
 
 <div>
-  <div class="collapsible" onclick="toggleContent()">
+  <div style="text-align: center;" class="collapsible" onclick="toggleContent()">
     Care Café
     <span id="symbol" class="symbol">+</span>
   </div>
@@ -93,7 +87,7 @@
 </div>
 
 <div>
-  <div class="collapsible" onclick="toggleContent()">
+  <div style="text-align: center;" class="collapsible" onclick="toggleContent()">
     Redacted Documents
     <span id="symbol" class="symbol">+</span>
   </div>
@@ -101,11 +95,11 @@
     Navigate a mysterious facility on Plum Island, facing cryptid-like creatures in a tense survival horror experience. Utilize stealth and action mechanics to uncover secrets and escape.
 
   <div class="gamesimagegrid">
-    <img class="gamesimg" src="assets/images/Screenshot 2025-06-13 132847.png" alt="Redacted Documents Screenshot 2">
-    <img class="gamesimg" src="assets/images/66c6f6eefb3fc2d6613140da_Weapon.gif" alt="Redacted Documents Screenshot 3">
+    <img class="gamesimg" src="/assets/images/Screenshot 2025-06-13 132847.png" alt="Redacted Documents Screenshot 2">
+    <img class="gamesimg" src="/assets/images/66c6f6eefb3fc2d6613140da_Weapon.gif" alt="Redacted Documents Screenshot 3">
     
     <video class="gamesimg" controls muted>
-      <source src="assets/images/weapontest.mp4" type="video/mp4">
+      <source src="/assets/images/weapontest.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
