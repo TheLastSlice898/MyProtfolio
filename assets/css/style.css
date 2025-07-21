@@ -103,7 +103,8 @@ padding: 10px;
 }
 @media (max-width: 768px) {
     .homeheroimages{
-display: none;
+grid-template-columns: 1fr;
+grid-template-rows: auto;
     }
 }
 
@@ -150,6 +151,10 @@ display: none;
     object-fit: cover;
     padding: 2.5px;
     width: 100%;
+}
+.contactme
+{
+    justify-content: center;
 }
 
 .heroimg
